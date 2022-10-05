@@ -13,4 +13,10 @@ string[] arr =
     "Russia", "Denmark", "-2",  "1234", "1567",
     "computer  science",
 };
+string[] GetValidArray(string[] array)
+{
+    int size = array.Length;
+    int count = 0;
+    for (int i = 0; i < size; i++)
+    {
 
