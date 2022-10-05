@@ -19,4 +19,4 @@ string[] GetValidArray(string[] array)
     int count = 0;
     for (int i = 0; i < size; i++)
     {
-
+        if (array[i].Length <= 3)        
