@@ -38,5 +38,11 @@ string[] GetValidArray(string[] array)
             if (array[i].Length <= 3)
             {
                 ValidArray[j++] = array[i];
-            }     
+            }
+
+        }
+        return ValidArray;
+    }
+}
+string PrintArray(string[] array)             
 
