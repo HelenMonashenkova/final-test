@@ -29,3 +29,14 @@ string[] GetValidArray(string[] array)
 
 
     string[] ValidArray = new string[count];
+    {
+
+        int j = 0;
+
+        for (int i = 0; i < size; i++)
+        {
+            if (array[i].Length <= 3)
+            {
+                ValidArray[j++] = array[i];
+            }     
+
