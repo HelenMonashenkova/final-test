@@ -60,3 +60,6 @@ Console.WriteLine();
 Console.WriteLine(PrintArray(arr));                 
 Console.WriteLine();
 string[] valid = (GetValidArray(arr));
+
+Console.WriteLine($"{PrintArray(valid)} ");
+Console.WriteLine();
