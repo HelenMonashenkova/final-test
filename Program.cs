@@ -45,4 +45,18 @@ string[] GetValidArray(string[] array)
     }
 }
 string PrintArray(string[] array)             
+{
+    int size = array.Length;
+    string print = String.Empty;
+    for (int i = 0; i < size; i++)
+    {
+        print += $"{array[i]}  ";                   
+    }
 
+    return print;
+}
+
+Console.WriteLine(); 
+Console.WriteLine(PrintArray(arr));                 
+Console.WriteLine();
+string[] valid = (GetValidArray(arr));
