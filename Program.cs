@@ -22,4 +22,10 @@ string[] GetValidArray(string[] array)
         if (array[i].Length <= 3)
         {
             count++;
-        }    
+        } 
+
+    }
+    Console.WriteLine();
+
+
+    string[] ValidArray = new string[count];
